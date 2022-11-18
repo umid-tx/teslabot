@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "sam-app-twitter-umid"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-pcatkpeq1n2w"
+s3_prefix = "sam-app-twitter-umid"
+region = "us-east-1"
+capabilities = "CAPABILITY_IAM"
+image_repositories = ["SentimentFunction=681261969843.dkr.ecr.us-east-1.amazonaws.com/samapptwitterumid357768a1/sentimentfunction35d37012repo"]

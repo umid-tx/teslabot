@@ -1,5 +1,5 @@
 {
-    "body": "{\"comments\": [\"hello world\"]}",
+    "body": "{\"comments\": [\"Weather is very very very cloudy\"]}",
     "resource": "/sentiment",
     "path": "/sentiment",
     "httpMethod": "POST",

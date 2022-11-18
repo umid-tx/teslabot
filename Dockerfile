@@ -7,3 +7,6 @@ COPY ./get_model.py ${LAMBDA_TASK_ROOT}
 RUN python ${LAMBDA_TASK_ROOT}/get_model.py
 COPY . ${LAMBDA_TASK_ROOT}
 CMD [ "app.handler" ]
+
+# Installing compiler by "yum install gcc -y"
+# Environment variable LAMBDA_TASK_ROOT – The path to your Lambda function code.
